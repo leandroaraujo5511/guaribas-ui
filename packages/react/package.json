@@ -1,6 +1,6 @@
 {
   "name": "@guaribas-ui/react",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -26,6 +26,8 @@
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.2",
     "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-dialog": "^1.0.3",
+    "@radix-ui/react-scroll-area": "^1.0.3",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
