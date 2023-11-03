@@ -1,5 +1,11 @@
 # @guaribas-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- update
+
 ## 2.1.1
 
 ### Patch Changes
