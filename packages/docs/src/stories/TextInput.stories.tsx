@@ -1,10 +1,12 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@guaribas-ui/react'
+import { Box, TextInput, TextInputProps } from '@guaribas-ui/react'
 
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    label: 'Email address',
+  },
   decorators: [
     (Story) => {
       return (
@@ -12,7 +14,6 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text>Email address</Text>
           {Story()}
         </Box>
       )
