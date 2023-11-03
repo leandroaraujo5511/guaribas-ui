@@ -1,7 +1,8 @@
 import '../styles/tokens-grid.css'
+
 interface TokensGridProps {
   tokens: Record<string, string>
-  hasRemValue: boolean
+  hasRemValue?: boolean
 }
 
 export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
@@ -11,7 +12,7 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
         <tr>
           <th>Name</th>
           <th>Value</th>
-          {hasRemValue && <th>Pixel</th>}
+          {hasRemValue && <th>Pixels</th>}
         </tr>
       </thead>
 

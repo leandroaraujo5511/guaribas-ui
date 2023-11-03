@@ -1,5 +1,5 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Text, TextProps } from '@healthcare-ui/react'
 
 export default {
   title: 'Typography/Text',
@@ -7,7 +7,7 @@ export default {
   args: {
     size: 'md',
     children:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quisquam a maxime sequi corporis facilis vero laborum molestiae rerum placeat eligendi quae laudantium, dignissimos iusto blanditiis libero debitis. Ea, nobis?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
   argTypes: {
     size: {
@@ -34,9 +34,10 @@ export default {
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
-export const CustonTag: StoryObj<TextProps> = {
+
+export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: 'Strong props',
+    children: 'Strong text',
     as: 'strong',
   },
 }

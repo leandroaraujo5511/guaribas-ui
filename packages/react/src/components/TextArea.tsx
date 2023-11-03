@@ -16,13 +16,15 @@ export const TextArea = styled('textarea', {
   minHeight: 80,
 
   '&:focus': {
-    borderColor: '$ignite300',
     outline: 0,
+    borderColor: '$ignite300',
   },
+
   '&:disabled': {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
   '&:placeholder': {
     color: '$gray400',
   },

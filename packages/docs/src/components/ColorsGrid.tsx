@@ -1,4 +1,4 @@
-import { colors } from '@guaribas-ui/tokens'
+import { colors } from '@healthcare-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

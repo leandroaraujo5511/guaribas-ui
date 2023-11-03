@@ -1,8 +1,8 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@healthcare-ui/react'
 
 export default {
-  title: 'Form/Chekbox',
+  title: 'Form/Checkbox',
   component: Checkbox,
   args: {},
   decorators: [
@@ -13,7 +13,7 @@ export default {
           css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
         >
           {Story()}
-          <Text>Accept terms of use</Text>
+          <Text size="sm">Accept terms of use</Text>
         </Box>
       )
     },

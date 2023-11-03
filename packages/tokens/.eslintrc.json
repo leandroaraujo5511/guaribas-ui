@@ -1,4 +1,3 @@
 {
-    "extends": "@guaribas-ui/eslint-config"
-
+  "extends": "@healthcare-ui/eslint-config"
 }

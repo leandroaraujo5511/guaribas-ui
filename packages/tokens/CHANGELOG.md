@@ -1,13 +1,13 @@
-# @guaribas-ui/tokens
+# @healthcare-ui/tokens
 
-## 1.1.1
+## 1.2.0
 
-### Patch Changes
+### Minor Changes
 
-- add Modal and include new token spaces
+- new package
 
 ## 1.1.0
 
 ### Minor Changes
 
-- Add new color
+- Add new test color

@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@guaribas-ui/tokens'
+} from '@healthcare-ui/tokens'
 
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
@@ -22,9 +22,10 @@ export const {
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
-    width: 'space',
     height: 'space',
+    width: 'space',
   },
+
   theme: {
     colors,
     fontSizes,

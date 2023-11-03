@@ -1,12 +1,12 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Avatar, AvatarProps } from '@healthcare-ui/react'
 
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/leandroaraujo5511.png',
-    alt: 'Leandro Araujo',
+    src: 'https://github.com/diego3g.png',
+    alt: 'Diego Fernandes',
   },
   argTypes: {
     src: {

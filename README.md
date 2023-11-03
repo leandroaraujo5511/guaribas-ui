@@ -1,4 +1,4 @@
-# Componnets
+# Components
 
 - [ ] Text
 - [ ] Heading

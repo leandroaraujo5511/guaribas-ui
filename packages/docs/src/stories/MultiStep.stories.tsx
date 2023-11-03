@@ -1,5 +1,5 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, MultiStep, MultiStepProps } from '@healthcare-ui/react'
 
 export default {
   title: 'Form/Multi Step',
@@ -22,7 +22,10 @@ export default {
   ],
 } as Meta<MultiStepProps>
 
-export const Primary: StoryObj<MultiStepProps> = {}
+export const Primary: StoryObj<MultiStepProps> = {
+  args: {},
+}
+
 export const Full: StoryObj<MultiStepProps> = {
   args: {
     currentStep: 4,

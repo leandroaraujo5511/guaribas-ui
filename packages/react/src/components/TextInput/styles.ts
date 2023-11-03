@@ -1,10 +1,5 @@
 import { styled } from '../../styles'
 
-export const Container = styled('div', {
-  display: 'grid',
-  gap: '$2',
-})
-
 export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
   borderRadius: '$sm',
@@ -23,13 +18,16 @@ export const TextInputContainer = styled('div', {
       },
     },
   },
+
   '&:has(input:focus)': {
     borderColor: '$ignite300',
   },
+
   '&:has(input:disabled)': {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
   defaultVariants: {
     size: 'md',
   },
@@ -39,21 +37,14 @@ export const Prefix = styled('span', {
   fontFamily: '$default',
   fontSize: '$sm',
   color: '$gray400',
-  fontWeight: '$regular',
-})
-
-export const Label = styled('span', {
-  fontFamily: '$default',
-  fontSize: '$sm',
-  color: '$gray400',
-  fontWeight: '$regular',
+  fontWeight: 'regular',
 })
 
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
   color: '$white',
-  fontWeight: '$bold',
+  fontWeight: 'regular',
   background: 'transparent',
   border: 0,
   width: '100%',
@@ -61,10 +52,12 @@ export const Input = styled('input', {
   '&:focus': {
     outline: 0,
   },
+
   '&:disabled': {
     cursor: 'not-allowed',
   },
+
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })

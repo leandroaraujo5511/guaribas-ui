@@ -1,4 +1,4 @@
 {
-    "extends": "@guaribas-ui/ts-config/react.json",
-    "include": ["src"]
-  }
+  "extends": "@healthcare-ui/ts-config/react.json",
+  "include": ["src"]
+}

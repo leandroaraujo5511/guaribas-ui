@@ -1,12 +1,12 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Heading, HeadingProps } from '@healthcare-ui/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
+    children: 'Custom title',
     size: 'md',
-    children: 'Custon title',
   },
   argTypes: {
     size: {
@@ -19,7 +19,8 @@ export default {
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
-export const CustonTag: StoryObj<HeadingProps> = {
+
+export const CustomTag: StoryObj<HeadingProps> = {
   args: {
     children: 'H1 Heading',
     as: 'h1',
@@ -28,7 +29,7 @@ export const CustonTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'Por padrão o heading sempre será `h2` mais podemos alterar isso com a propriedade `as`.',
+          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
       },
     },
   },

@@ -1,5 +1,5 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Button, ButtonProps } from '@healthcare-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
@@ -36,10 +36,11 @@ export default {
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
+
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
-    children: 'Create New',
+    children: 'Create new',
   },
 }
 
@@ -49,6 +50,7 @@ export const Tertiary: StoryObj<ButtonProps> = {
     children: 'Cancel',
   },
 }
+
 export const Small: StoryObj<ButtonProps> = {
   args: {
     size: 'sm',
@@ -66,7 +68,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   },
 }
 
-export const Disable: StoryObj<ButtonProps> = {
+export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,
   },

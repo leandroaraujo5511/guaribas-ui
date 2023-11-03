@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@guaribas-ui/docs"]
+  "ignore": ["@healthcare-ui/docs"]
 }

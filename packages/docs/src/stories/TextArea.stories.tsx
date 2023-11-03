@@ -1,5 +1,5 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@guaribas-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, Text, TextArea, TextAreaProps } from '@healthcare-ui/react'
 
 export default {
   title: 'Form/Text Area',
@@ -12,7 +12,7 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text>Observations</Text>
+          <Text size="sm">Observations</Text>
           {Story()}
         </Box>
       )
@@ -22,7 +22,7 @@ export default {
 
 export const Primary: StoryObj<TextAreaProps> = {
   args: {
-    placeholder: 'Add any observation',
+    placeholder: 'Add any observations...',
   },
 }
 
