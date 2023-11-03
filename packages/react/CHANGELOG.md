@@ -1,5 +1,11 @@
 # @guaribas-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- fix: types and ref components
+
 ## 3.0.0
 
 ### Major Changes
