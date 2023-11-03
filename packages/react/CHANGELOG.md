@@ -1,5 +1,11 @@
 # @healthcare-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- Update version
+
 ## 2.3.0
 
 ### Minor Changes
